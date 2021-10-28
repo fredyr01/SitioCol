@@ -2,7 +2,7 @@ $(document).ready(function () {
     let ubicacionPrincipal = window.pageYOffset;
     window.onscroll = function(){
     let despActual = window.pageYOffset;
-    if(ubicacionPrincipal >= despActual){
+    if(ubicacionPrincipal > despActual){
         // document.getElementById('info').style.top= '0';
         // document.getElementById('info').style.visibility = 'visible';
         // document.getElementById('wrapperc').style.top='22px';
@@ -19,8 +19,7 @@ $(document).ready(function () {
         $('#info').addClass('animate__animated');
         $('#info').addClass('animate__fadeOut');
         $('#wrapperc').css("top", "0");
-        $('#wrapperc').css("z-index", "2");
     }
-    ubicacionPrincipal = despActual;
 }
+    ubicacionPrincipal = despActual;
 });

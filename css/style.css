@@ -100,10 +100,10 @@
 }
 
 .image-school{
-  min-height: 90vh;
+  min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(26, 36, 73, 0.459), rgba(56, 41, 14, 0.582)), url(../img/img-school.jpg);
-  background-position: top;
+  background-image: linear-gradient(rgba(26, 36, 73, 0.623), rgba(56, 41, 14, 0.678)), url(../img/kids.jpg);
+  background-position: center;
   background-size: cover;
   position: relative;
 }
@@ -112,7 +112,7 @@
   width: 90%;
   color: #fff;
   position: absolute;
-  top: 68%;
+  top: 78%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -124,7 +124,7 @@
 
 .text-box p{
   margin: 10px 0 40px;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
 }
 
@@ -147,7 +147,6 @@
   color: #fff;
 }
 
-
 .course{
   width: 80%;
   margin: auto;
@@ -162,7 +161,7 @@ h1{
 
 p{
   color: #777;
-  font-size: 14px;
+  font-size: 17px;
   font-weight: 300;
   line-height: 22px;
   padding: 10px;
@@ -204,13 +203,13 @@ p{
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 10px;
 }
 
 .campus-col{
   flex-basis: 32%;
   border-radius: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   position: relative;
   overflow: hidden;
 }
@@ -256,7 +255,7 @@ p{
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .facilities-col{
@@ -279,6 +278,104 @@ p{
   margin-top: 16px;
   margin-bottom: 15px;
   text-align: left ;
+}
+
+.testimonio{
+  width: 80%;
+  margin: auto;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.testimonio-col{
+  flex-basis: 44%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+  background: #fff3f3;
+  padding: 20px;
+  cursor: pointer;
+  display: flex;
+}
+
+.testimonio-col img{
+  height: 100px;
+  width: 115px;
+  margin-left: 5px;
+  margin-right: 30px;
+  border-radius: 50%;
+}
+
+.testimonio-col p{
+  padding: 0;
+}
+
+.testimonio-col .tipoletratres{
+  margin-top: 15px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.testimonio-col .fas{
+  color: #c75b0286;
+}
+
+.testimonio-col .far{
+  color: #c75b0286;
+}
+
+@media(max-width: 700px){
+  .testimonio-col img{
+    margin-left: 0;
+    margin-right: 15px;
+  }
+}
+
+.cta{
+  margin: 30px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.767),rgba(59, 48, 23, 0.7)), url("../img/banner2.jpg");
+  background-position: bottom;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.cta h1{
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+@media(max-width: 700px){
+  .cta h1{
+    font-size: 24px;
+  }
+}
+
+
+.footer{
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer h4{
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.icons .fab{
+  color: #582a03d2;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+
+.fa-copyright{
+  color: #441f008a;
 }
 
 nav{
@@ -397,7 +494,7 @@ nav .wrapperc{
 .rowc .mega-linksc li a{
   padding: 0 20px;
   color: #d9d9d9;
-  font-size: 12px;
+  font-size: 13px;
   display: block;
 }
 .rowc .mega-linksc li a:hover{
