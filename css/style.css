@@ -6,9 +6,14 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.fa-school{
+  color: #c06012f5;
+}
+
 .info{
   line-height: 22px;
   display: flex;
+  background-color: #dadde094;
 }
 
 .info .sup-nav-contact{
@@ -28,14 +33,29 @@
 
 .sup-nav-contact .social-media a .fa-facebook{
   color: blue;
+  transition: all 0.3s ease;
+}
+
+.sup-nav-contact .social-media a .fa-facebook:hover{
+  transform: scale(1.25);
 }
 
 .sup-nav-contact .social-media a .fa-instagram{
   color: rgb(133, 36, 133);
+  transition: all 0.3s ease;
+}
+
+.sup-nav-contact .social-media a .fa-instagram:hover{
+  transform: scale(1.25);
 }
 
 .sup-nav-contact .social-media a .fa-youtube{
   color: red;
+  transition: all 0.3s ease;
+}
+
+.sup-nav-contact .social-media a .fa-youtube:hover{
+  transform: scale(1.25);
 }
 .sup-nav-contact .social-media a:hover{
   height: 16em;
@@ -45,6 +65,15 @@
   text-decoration: none;
   color: #242526;
   font-size: 13px;
+  transition: all 0.3s ease;
+}
+
+.sup-nav-contact .email-contact a .fa-envelope:hover{
+  transform: scale(1.25);
+}
+
+.sup-nav-contact .email-contact a .fa-whatsapp:hover{
+  transform: scale(1.25);
 }
 
 .info .sup-nav-plat{
@@ -57,8 +86,30 @@
 .sup-nav-plat a{
   margin: 0 25px;
   text-decoration: none;
-  font-size: 12px;
-  color: #242526;
+  font-size: 13px;
+  color: #161718;
+  transition: all 0.1s ease;
+}
+
+.sup-nav-plat a .fa-user-tie:hover{
+  transform: scale(1.30);
+}
+
+.sup-nav-plat a .fa-user-graduate:hover{
+  transform: scale(1.30);
+}
+
+.sup-nav-plat a .fa-user-friends:hover{
+  transform: scale(1.30);
+}
+
+.image-school{
+  min-height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(74, 87, 139, 0.329), rgba(148, 121, 70, 0.26)), url(../img/img-school.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 nav{
@@ -202,7 +253,7 @@ nav .wrapperc{
     height: 100vh;
     width: 100%;
     max-width: 350px;
-    top: 0;
+    top: 22px;
     left: -100%;
     background: #0a284b;
     display: block;
@@ -269,7 +320,7 @@ nav .wrapperc{
     transition: all 0.3s ease;
   }
   .nav-linksc .mobile-itemc:hover{
-    background: #0a284b;
+    background: #c06012f5;
   }
   .drop-menuc li{
     margin: 0;
@@ -332,4 +383,29 @@ nav input{
 .body-textc div{
   font-size: 45px;
   font-weight: 600;
+}
+
+
+@media screen and (max-width: 754px) {
+
+  .info .sup-nav-contact{
+    justify-items: flex-start;
+  }
+
+  .sup-nav-contact .social-media a{
+    margin: 0 2px;
+  }
+
+  .sup-nav-plat a{
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #242526;
+    transition: all 0.1s ease;
+  }
+
+  .wrapperc .nav-linksc{
+    top: 22px;
+  }
+
 }
