@@ -20,6 +20,6 @@ $(document).ready(function () {
         $('#info').addClass('animate__fadeOut');
         $('#wrapperc').css("top", "0");
     }
-}
     ubicacionPrincipal = despActual;
+}
 });
