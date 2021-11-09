@@ -73,6 +73,16 @@
               <input class="form-control" type="file" id="formFile" required>
               <div class="invalid-feedback">Debe anexar su hoja de vida.</div>
             </div>
+            <div class="col-md-6">
+              <label for="cargo" class="form-label">Cargo al cual aspira</label>
+              <select class="form-select" required aria-label="select example" id="cargo">
+                <option value="">Seleccione el cargo</option>
+                <option value="1">Profesor</option>
+                <option value="2">Secretario</option>
+                <option value="3">Ingeniero de sistemas</option>
+              </select>
+              <div class="invalid-feedback">Selecciona el cargo.</div>
+            </div>
             <div class="col-12">
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
