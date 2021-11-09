@@ -6,6 +6,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
+
 .info{
   line-height: 22px;
   display: flex;
@@ -103,7 +104,7 @@
   bottom: 9px;
   min-height: 100vh;
   width: 100%;
-  background-image: linear-gradient(rgba(26, 36, 73, 0.623), rgba(56, 41, 14, 0.678)), url(../img/kids.jpg);
+  background-image: linear-gradient(rgba(26, 36, 73, 0.432), rgba(56, 41, 14, 0.459)), url('../img/kids.jpg');
   background-position: center;
   background-size: cover;
   position: relative;
@@ -335,7 +336,7 @@ p{
 .cta{
   margin: 30px auto;
   width: 80%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.767),rgba(59, 48, 23, 0.7)), url("../img/banner2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.767),rgba(59, 48, 23, 0.7)), url('../img/banner2.jpg');
   background-position: bottom;
   background-size: cover;
   border-radius: 10px;
@@ -684,3 +685,5 @@ nav input{
   }
 
 }
+
+

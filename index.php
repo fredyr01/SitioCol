@@ -9,7 +9,7 @@
   <div class="text-box">
     <h1>The best school</h1>
     <p class="subtitulo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident voluptatibus iure repellendus eveniet doloribus dolorum quae ipsum alias!</p>
-    <a href="#" class="hero-btn">Ver más</a>
+    <a href="inscripcion.php" class="hero-btn">Inscribirme</a>
   </div>
 
   <!-- Course -->
@@ -39,19 +39,19 @@
 
     <div class="row-course">
       <div class="campus-col">
-        <img src="img/campus1.jpg" alt="">
+        <img src="assets/img/campus1.jpg" alt="">
         <div class="layer">
           <h3 class="tipoletratres">Salón</h3>
         </div>
       </div>
       <div class="campus-col">
-        <img src="img/campus2.jpg" alt="">
+        <img src="assets/img/campus2.jpg" alt="">
         <div class="layer">
           <h3 class="tipoletratres">Áreas de esparcimiento</h3>
         </div>
       </div>
       <div class="campus-col">
-        <img src="img/campus3.jpg" alt="">
+        <img src="assets/img/campus3.jpg" alt="">
         <div class="layer">
           <h3 class="tipoletratres">Laboratorio</h3>
         </div>
@@ -66,17 +66,17 @@
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
     <div class="row-course">
       <div class="facilities-col">
-        <a href=""><img src="img/england.jpg" alt=""></a>
+        <a href=""><img src="assets/img/england.jpg" alt=""></a>
         <h3 class="tipoletratres">Estudia en Inglaterra</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, accusantium?</p>
       </div>
       <div class="facilities-col">
-        <a href=""><img src="img/language.jpg" alt=""></a>
+        <a href=""><img src="assets/img/language.jpg" alt=""></a>
         <h3 class="tipoletratres">Certificación internacional idiomas</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, accusantium?</p>
       </div>
       <div class="facilities-col">
-        <a href=""><img src="img/poli.jpg" alt=""></a>
+        <a href=""><img src="assets/img/poli.jpg" alt=""></a>
         <h3 class="tipoletratres">Politecnico</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, accusantium?</p>
       </div>
@@ -88,7 +88,7 @@
     <h2>Lo que nuestros estudiantes dicen</h2>
     <div class="row-course">
       <div class="testimonio-col">
-        <img src="img/student1.jpg">
+        <img src="assets/img/student1.jpg">
         <div>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum soluta asperiores reprehenderit, neque dolorum nesciunt libero a magnam ratione. Earum voluptatem nulla commodi doloribus ipsam!</p>
           <h3 class="tipoletratres">Ana Castro</h3>
@@ -100,7 +100,7 @@
         </div>
       </div>
       <div class="testimonio-col">
-        <img src="img/student2.jpg">
+        <img src="assets/img/student2.jpg">
         <div>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum soluta asperiores reprehenderit, neque dolorum nesciunt libero a magnam ratione. Earum voluptatem nulla commodi doloribus ipsam!</p>
           <h3 class="tipoletratres">Luciana Rodriguez</h3>
@@ -118,7 +118,7 @@
 
   <section class="cta">
     <h1>¿Estás interesado en hacer parte de nuestro equipo?</h1>
-    <a href="trabaje.php" class="hero-btn">Ver más</a>
+    <a href="trabaje-con-nosotros.php" class="hero-btn">Ver más</a>
   </section>
 
 <?php
