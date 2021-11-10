@@ -6,11 +6,14 @@
   font-family: 'Roboto', sans-serif;
 }
 
+.requerido{
+  color: red;
+}
 
 .info{
   line-height: 22px;
   display: flex;
-  background-color: #dadde094;
+  background-color: #afb6c294;
 }
 
 .info .sup-nav-contact{
