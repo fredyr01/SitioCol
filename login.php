@@ -19,7 +19,7 @@
                 <img src="login/img/img2.svg">
             </div>
             <div class="login-content">
-                <form action="#">
+                <form action="#" autocomplete="off">
                     <img src="login/img/avatar.svg">
                     <h2 class="title">Bienvenido</h2>
                     <div class="input-div one">

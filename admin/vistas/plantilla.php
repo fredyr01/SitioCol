@@ -4,16 +4,24 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title><?php echo COMPANY; ?></title>
-
-    <?php include "./vistas/inc/link.php"; ?>
-
-</head>
-<body>
-	<?php
+	<?php 
 		$peticionAjax = false;
 		require_once "./controladores/vistasControlador.php";
 		$iv = new vistasControlador();
 		$vistas = $iv->obtener_vistas_controlador();
+	?>
+
+    <?php
+		if($vistas != "login"){
+			include "./vistas/inc/link.php"; 
+		}
+		
+	?>
+
+</head>
+<body>
+	<?php
+		
 		if($vistas == "login" || $vistas=="404"){
 			require_once "./vistas/contenidos/".$vistas."-view.php";
 		}else{
@@ -34,6 +42,10 @@
 	</main>
             <?php
 			}
-			include "./vistas/inc/script.php"; ?>
+
+			if($vistas != "login"){
+				include "./vistas/inc/script.php";
+			}
+			?>
 </body>
 </html>
