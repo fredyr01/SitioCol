@@ -1,0 +1,42 @@
+body{
+    background: #0a284b;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    width: 30%;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    color: rgb(233, 238, 245);
+    font-size: 20px;
+    padding: 20px;
+}
+button{
+    padding: 13px 30px;
+    border-radius: 15px;
+    border: none;
+    background: #023f79;
+    color: white;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:630px){
+    h1{        
+        font-size: 16px;        
+    }
+}

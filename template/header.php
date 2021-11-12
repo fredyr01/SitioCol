@@ -26,7 +26,7 @@
       </div>
     </div>
     <div class="sup-nav-plat">
-      <a href="login.php"><i class="fas fa-user-tie"></i> Iniciar sesión</a>
+      <a href="admin/login"><i class="fas fa-user-tie"></i> Iniciar sesión</a>
     </div>
   </div>
   <nav id="wrapperc">
