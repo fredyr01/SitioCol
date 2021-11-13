@@ -5,22 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="shortcut icon" href="../login/img/acceso.png" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/login/img/acceso.png" type="image/x-icon">
     <link rel="stylesheet" href="../assets/fontawesome/css/fontawesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../login/css/style.css">
+    <link rel="stylesheet" href="../assets/login/css/style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
-        <img class="wave" src="../login/img/wave.png">
+        <img class="wave" src="../assets/login/img/wave.png">
         <div class="container">
             <div class="img">
-                <img src="../login/img/img2.svg">
+                <img src="../assets/login/img/img2.svg">
             </div>
             <div class="login-content">
                 <form action="#" autocomplete="off">
-                    <img src="../login/img/avatar.svg">
+                    <img src="../assets/login/img/avatar.svg">
                     <h2 class="title">Bienvenido</h2>
                     <div class="input-div one">
                     <div class="i">
@@ -45,15 +46,12 @@
                 </form>
             </div>
         </div>
-    <script type="javascript" src="../login/js/main.js">
-
+    <script type="javascript" src="../assets/login/js/main.js">
     </script>
+    <script type="javascript" src="../assets/login/js/alertas.js"></script>
 
 </body>
 </html>
-
-
-
 
 <!-- <div class="login-container">
     <div class="login-content">

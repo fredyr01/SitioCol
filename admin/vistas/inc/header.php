@@ -20,6 +20,7 @@ rel="stylesheet">
 
 <!-- Custom styles for this template-->
 <link href="vistas/css/sb-admin-2.min.css" rel="stylesheet">
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </head>
 
@@ -32,7 +33,7 @@ rel="stylesheet">
 <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
 <!-- Sidebar - Brand -->
-<a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+<a class="sidebar-brand d-flex align-items-center justify-content-center" href="home">
     <div class="sidebar-brand-icon rotate-n-15">
         <i class="fas fa-book-reader"></i>
     </div>
@@ -44,7 +45,7 @@ rel="stylesheet">
 
 <!-- Nav Item - Dashboard -->
 <li class="nav-item active">
-    <a class="nav-link" href="index.html">
+    <a class="nav-link" href="home">
         <i class="fas fa-fw fa-tachometer-alt"></i>
         <span>Principal</span></a>
 </li>
@@ -57,18 +58,36 @@ rel="stylesheet">
     Interface
 </div>
 
-<!-- Nav Item - Pages Collapse Menu -->
+<!-- Nav Item - Personal Collapse Menu -->
 <li class="nav-item">
-    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-        aria-expanded="true" aria-controls="collapseTwo">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePer"
+        aria-expanded="true" aria-controls="collapsePer">
         <i class="fas fa-fw fa-cog"></i>
-        <span>Components</span>
+        <span>Personal</span>
     </a>
-    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+    <div id="collapsePer" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
         <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Custom Components:</h6>
-            <a class="collapse-item" href="buttons.php">Buttons</a>
-            <a class="collapse-item" href="cards.php">Cards</a>
+            <!-- <h6 class="collapse-header">Personal</h6> -->
+            <a class="collapse-item" href="user-new">Crear personal</a>
+            <a class="collapse-item" href="user-list">Listar personal</a>
+            <a class="collapse-item" href="user-search">Buscar personal</a>
+        </div>
+    </div>
+</li>
+
+<!-- Nav Item - Estudiantes Collapse Menu -->
+<li class="nav-item">
+    <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseEst"
+        aria-expanded="true" aria-controls="collapseEst">
+        <i class="fas fa-fw fa-cog"></i>
+        <span>Estudiantes</span>
+    </a>
+    <div id="collapseEst" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+        <div class="bg-white py-2 collapse-inner rounded">
+            <!-- <h6 class="collapse-header">Personal</h6> -->
+            <a class="collapse-item" href="user-new">Crear estudiante</a>
+            <a class="collapse-item" href="user-list">Listar estudiante</a>
+            <a class="collapse-item" href="user-search">Buscar estudiante</a>
         </div>
     </div>
 </li>

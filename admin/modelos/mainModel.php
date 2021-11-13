@@ -102,10 +102,6 @@
             }
         }
 
-        //* ------------- Función paginador de tablas  -------------
-        protected static function paginador_tablas($pagina, $Npaginas, $url, $botones){
-            
-        }
     }
 
 
